@@ -1,4 +1,6 @@
 import Card from "@/components/Card"
+import Button from "@/components/button";
+
 
 const Landing: React.FC =  () => {
     return (
@@ -7,6 +9,9 @@ const Landing: React.FC =  () => {
         <Card />
         <Card />
         <Card />
+        <Button title="Small Button" size="small" shape="rounded-sm" />
+        <Button title="Medium Button" size="medium" shape="rounded-md" />
+        <Button title="Large Button" size="large" shape="rounded-full" />
       </div>
     )
   }
